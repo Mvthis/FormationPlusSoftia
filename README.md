@@ -8,7 +8,9 @@ The language used in this project was Node.Js, and the database was in MySql. It
 
 1- Open your CLI. 
 
-2- git clone « »
+2- git clone « https://github.com/Mvthis/FormationPlusSoftia.git »
+
+3- In package.json, change the login and the username to yours.
 
 3- Make sure to be in the directory’s root. 
 
