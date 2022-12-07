@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang-"en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-VA-Compatible"content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/stylesheet/style.css">
+    <title>FormationPlus</title>
+</head>
+<body>
+    <main>
+        <form action='/attestation' method="post">
+            <fieldset class=fieldset1>
+                <legend class="legend1"> Générer une attestation</legend>
+                <label for="subject">Liste des étudiants</label><br>
+                <select name="subject" id="options" class="subject">
+                    <option value="">Choissisez un étudiant</option>
+                </select>
+            </fieldset>
+            <fieldset class=fieldset1>
+                <legend class="legend1">Attestation</legend>
+                <input name="convention" type="hidden" id="convention">
+                <textarea name="attestation" id= "attestation"></textarea>
+            </fieldset>
+            <input type="submit" class="submit" value="Générer">
+        </form>
+        <script type="application/javascript" src='../public/js/script.js'></script>
+    </main>
+</body>
+</html>
